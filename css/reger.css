@@ -1,0 +1,218 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+}
+.clear, #clear {
+	clear: both;
+}
+.fl {float: left;}
+.fr {float: right}
+.mt10 {margin-top: 10px;}
+.mt20 {margin-top: 20px;}
+.mt30 {margin-top: 30px;}
+.mt40 {margin-top: 40px;}
+.fw4 {font-weight: 400}
+.fw6 {font-weight: 600}
+.fw7 {font-weight: 700}
+.vc {color: #da2d33;}
+.vb {background: #da2d33 !important}
+.cc {color: #333;}
+.cb {background: #333}
+
+.barraUsuario, .barraUsuario a {
+	color: #fff;
+}
+header {
+	margin: 30px 0 0 0
+}
+/* login */
+
+.loginSuccess {
+	background: #8bc34a !important;
+	height: 260px;
+	width: 300px;
+	position: relative;
+	z-index: 999;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+	-o-transition: opacity 0.4s ease-in-out;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
+	color: #fff;
+	text-align: center
+}
+#msgerro {
+	background: #fff;
+	color: #982727;
+	margin: 0 0 10px 0;
+	font-weight: 700;
+	font-size: 12px;
+	width: 100%;
+	height: 20px;
+	line-height: 19px;
+}
+.imgok {
+	margin-top: 70px;
+}
+/* lista processos seletivos */
+
+.celNome {
+	width: 30%
+}
+.celNome2{width:30%}
+.celPrazo2{width:20%}
+.celArquivo2{width:10%; text-align:center;}
+
+.celInscrever2{width:13%;  text-align:center;}
+.celExcluir2{width:27%}
+.celPrazo {
+	width: 40%;
+	text-align: center
+}
+.celArquivo {
+	width: 15%;
+	text-align: center
+}
+.celInscrever {
+	width: 15%;
+	text-align: center
+}
+.celArquivo2 a, .celArquivo a {
+	color: #da2d33;
+	font-size: 18px
+}
+.celInscrever2 a, .celInscrever a {
+	color: #fff;
+}
+.celInscrever2 a:hover, .celInscrever a:hover {
+	background: #b3181d;
+	color: #fff
+}
+.celInscrever2 a.btn-success:hover , .celInscrever a.btn-success:hover {
+	background: #063
+}
+.table {
+	font-size: 16px
+}
+.table tr:nth-child(even) {
+	background: #f5f5f5
+}
+.modal-title {
+	text-align: center
+}
+.modal form {
+	padding: 0 10px 10px 10px
+}
+.form-group input[type=submit] {
+	color: #fff;
+}
+.form-group input[type=submit]:hover {
+	background: #b3181d
+}
+.disabled {
+	cursor: not-allowed;
+	background: #ccc;
+	color: #333
+}
+.btn-success{background-color: #5cb85c !important; color:#fff !important}
+.avisoCV {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 30px
+}
+.erro {
+	background: #FFD9D9;
+	padding: 5px 0;
+	color: #900;
+}
+.ok {
+	background: #DFFFBF;
+	padding: 5px 0;
+	color: #063
+}
+.glyphicon-refresh-animate {
+	-animation: spin .7s infinite linear;
+	-webkit-animation: spin2 .7s infinite linear;
+}
+ @-webkit-keyframes spin2 {
+ from {
+-webkit-transform: rotate(0deg);
+}
+ to {
+-webkit-transform: rotate(360deg);
+}
+}
+ @keyframes spin {
+ from {
+transform: scale(1) rotate(0deg);
+}
+ to {
+transform: scale(1) rotate(360deg);
+}
+}
+/* cv */
+
+
+
+.navetapas li a {
+	font-size: 13px;
+	padding: 15px 7px;
+	color: #555
+}
+.navetapas li.active a {
+	background: #da2d33
+}
+.navetapas li.active:hover a, .navetapas li.active a:focus, .navetapas li.active a:active {
+	background: #b3181d
+}
+.navetapas li {
+	background: #eee
+}
+.pager li>a {
+	background: #da2d33;
+	color: #fff;
+}
+.pager li:hover>a, .pager li>a:active, .pager li>a:focus {
+	background: #b3181d;
+	color: #fff;
+}
+.loginadm{position:fixed; bottom:0; right:0; opacity:0.6; color:#fff; padding:10px}
+
+.cvNome{width:40%}
+.cvCurso{width:25%; text-align:center}
+.cvNascimento{width:25%; text-align:center}
+.cvDetalhes{width:10%}
+.cvDetalhes a{color:#fff;}
+.cvNome, .cvCurso, .cvNascimento, .cvDetalhes{vertical-align:middle !important;}
+.tittr{background:#da2d33; color:#fff;}
+.dwldedital, .dwldedital:hover, .dwldedital:active, .dwldedital:focus{color:#000;}
+.txtbranco, .txtbranco:hover, .txtbranco:focus, .txtbranco:active, .btnCadastrar, .btnCadastrar:hover, .btnCadastrar:active, .btnCadastrar:focus{color:#fff;}
+.infoVaga h4{margin:20px 0}
+
+.sidebarSearch{}
+.isg{margin:0 30px}
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+}
+.recsenhavest { font-size:14px; color:#666}
+.glyphicon-download-alt{color:#da2d33;}
+.vis a{font-size:14px;color:#da2d33;}
+table > thead > tr{background: #eee}
+table > thead > tr > th{vertical-align: middle !important;}
+
+.listagemRecursos{min-height: 200px}
+@media print{
+	#listaRecPorEdital{display: none; visibility: hidden;}
+}
+h3.titCv{
+	border-bottom: 1px solid #999;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+.listapcd{color:#fff; background:blue; margin-left:3px; padding:0 2px}
